@@ -1,8 +1,9 @@
 import "./botao.estilos.css"
 
-export function Botao(props) {
+export function Botao({children}) {
     return (
-        <button {...props} className="botao-criar-evento-form">
+        <button className="botao">
+            {children}
         </button>
     )
 }
