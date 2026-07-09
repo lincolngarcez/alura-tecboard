@@ -14,3 +14,9 @@ header {
   max-width: 90%;
   margin: 0 auto;
 }
+
+.eventos {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
